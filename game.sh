@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # get random number between 0 < target < 100
-declare -ir target=$(( ($RANDOM % 100) + 1 ))
+declare -ir target=$(( ($RANDOM % 100)   ))
 
 declare -i guess=0
 
